@@ -1,0 +1,103 @@
+/* 1. Styles généraux du corps de la page */
+/* Définir une police par défaut, supprimer les marges/paddings, et ajouter un fond doux */
+body {
+    font-family: Arial, sans-serif; /* Police lisible et moderne */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* Couleur de fond légère */
+    color: #333; /* Couleur du texte principale */
+}
+
+/* 2. Styles pour l'en-tête */
+/* Ajout d'un fond coloré et stylisation du menu de navigation */
+header {
+    background-color: #0073e6; /* Couleur bleue attrayante */
+    color: white; /* Texte blanc pour le contraste */
+    padding: 1em 0; /* Espace autour du contenu */
+    text-align: center; /* Centrer le contenu */
+}
+
+/* Liste horizontale pour le menu de navigation */
+header nav ul {
+    list-style: none; /* Suppression des puces */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Mise en ligne des éléments */
+    justify-content: center; /* Centrer les éléments */
+    gap: 20px; /* Espacement entre les liens */
+}
+
+/* Apparence des liens */
+header nav ul li a {
+    color: white; /* Texte blanc */
+    text-decoration: none; /* Suppression des soulignements */
+    font-weight: bold; /* Texte en gras */
+}
+
+header nav ul li a:hover {
+    text-decoration: underline; /* Ajouter un soulignement au survol */
+}
+
+
+/* 3. Section Hero (introduction) */
+/* Mise en avant avec un fond coloré */
+#hero {
+    text-align: center; /* Centrer le texte */
+    padding: 50px; /* Espace autour du contenu */
+    background-color: #e0f7fa; /* Couleur douce et attrayante */
+}
+
+/* Texte principal */
+#hero h1 {
+    font-size: 2.5em; /* Texte plus grand pour attirer l'attention */
+    margin-bottom: 10px; /* Espacement sous le titre */
+}
+
+/* Texte secondaire */
+#hero p {
+    font-size: 1.2em; /* Texte légèrement plus grand que la normale */
+}
+
+/* 4. Section Features */
+/* Conteneur général */
+#features {
+    padding: 50px 20px; /* Espace autour du contenu */
+    background-color: #fff; /* Fond blanc pour une section propre */
+}
+
+/* Titre de la section */
+#features h2 {
+    text-align: center; /* Centrer le texte */
+    margin-bottom: 30px; /* Espacement sous le titre */
+    color: #0073e6; /* Même couleur que l'en-tête pour la cohérence */
+}
+
+/* Style des blocs de fonctionnalités */
+.feature {
+    margin: 20px 0; /* Espacement entre les blocs */
+    padding: 20px; /* Espace interne */
+    border: 1px solid #ddd; /* Bordure légère */
+    border-radius: 5px; /* Coins arrondis */
+    background-color: #fafafa; /* Couleur douce pour le fond */
+}
+
+/* Titre des fonctionnalités */
+.feature h3 {
+    margin-bottom: 10px; /* Espacement sous le titre */
+    color: #333; /* Texte sombre pour une bonne lisibilité */
+}
+
+/* Texte des fonctionnalités */
+.feature p {
+    color: #555; /* Texte légèrement plus clair */
+}
+
+/* 5. Pied de page */
+/* Section en bas avec un fond coloré */
+footer {
+    text-align: center; /* Centrer le texte */
+    background-color: #0073e6; /* Même couleur que l'en-tête */
+    color: white; /* Texte blanc */
+    padding: 10px 0; /* Espacement interne */
+    margin-top: 20px; /* Espacement au-dessus */
+}
