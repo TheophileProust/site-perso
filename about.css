@@ -1,0 +1,73 @@
+
+/* Style du menu */
+nav {
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+/* En-tête de la page */
+.about-header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+/* Conteneur de la page */
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+.about-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.text {
+    max-width: 500px;
+    text-align: left;
+}
+
+/* Bouton CV */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Pied de page */
+footer {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
